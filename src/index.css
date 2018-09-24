@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 2% 1%;
+  font-family: sans-serif;
+}
+
+main > img {
+  max-width: 100%;
+}
+
+.pearson-users .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #d8d8d8;
+  padding: 2% 1%;
+  margin: 2% 0;
+  width: 860px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.user-details .user-card {
+  width: 212px;
+  flex: 0 0 auto;
+  margin: 50px 1% 2%;
+  padding: 0 0 1% 0;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-avatar {
+  padding: 0;
+  height: 80px;
+  width: 80px;
+  margin: -40px auto 0;
+  border-radius: 50%;
+}
+
+.user-content {
+  flex: 1 1 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.user-content .user-title {
+  color: #e93939;
+  font-size:18px;
+}
+
+.user-action .delete-user {
+  color: #007fa3;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 250ms ease-in;
+}
+.heading{
+	font-size: 36px;
+	color:#007FA3;
+	margin-left: 60px;    
+}
